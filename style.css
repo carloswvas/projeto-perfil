@@ -1,0 +1,29 @@
+body {
+    font-family: monospace;
+    background-color: #003B4A;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.caixaInput {
+    border-width: 1px;
+    border-color: orangered;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.botao {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Wilton Contato</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Página de Contato</h1>
+    <a href="./index.html">Voltar</a>
+    <hr />
+    <p>
+      <strong>Nome</strong>:Carlos Wilton <br />
+      <strong>E-mail</strong>:carlos.araujo@al.docente.senai.br
+    </p>
+
+    <form action="mailto:carlos.araujo@al.docente.senai.br" method="post">
+      <label class="label" for="nome">Digite seu nome</label> <br>
+      <input class="caixaInput" type="text" id="nome" placeholder="Ex: José Maria" required> <br>
+
+      <label class="label" for="email">Digite seu E-mail</label><br>
+      <input class="caixaInput" type="email" id="email" placeholder="Ex:email@email.com" required> <br>
+
+      <label class="label" for="mensagem">Digite sua mensagem</label><br>
+      <textarea class="caixaInput" id="mensagem" cols="21" rows="5" required></textarea><br>
+
+      <input class="botao" type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
